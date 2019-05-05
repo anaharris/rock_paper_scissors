@@ -1,0 +1,88 @@
+* {
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: black;
+}
+
+body {
+  background: linear-gradient(rgb(229, 180, 157), rgb(204, 125, 104));
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* HEADER */
+header {
+  margin-top: 30px;
+}
+
+header h1 {
+  padding: 10px 0 30px 0;
+  border-bottom: 1px dashed black;
+}
+
+header img {
+  width: 8%;
+}
+
+/* SCORE BOARD */
+.score-board {
+  width: 100px;
+  margin: 30px auto;
+  border: 2px solid black;
+  padding: 20px;
+  position: relative;
+  border-radius: 3px;
+}
+
+.tag {
+  font-size: 12px;
+  background-color: black;
+  color: rgb(229, 180, 157);
+  padding: 2px;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+#user-tag {
+  position: absolute;
+  top: 17px;
+  left: -15px;
+}
+
+#comp-tag {
+  position: absolute;
+  top: 17px;
+  right: -20px;
+}
+
+/* MESSAGE */
+.message {
+  margin-top: 30px;
+}
+
+.message p {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+/* CHOICES */
+.choice {
+  width: 100px;
+  display: inline-block;
+  margin: 30px 20px;
+}
+
+.choice img {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 25%;
+  transition: all 0.3 ease;
+}
+
+.choice img:hover {
+  cursor: pointer;
+}

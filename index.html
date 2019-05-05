@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header>
+      <img src="./images/logo.png" alt="rock paper scissors">
+      <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <!-- SCORE BOARD -->
+    <div class="score-board">
+      <span class='tag' id='user-tag'>user</span>
+      <span id='user-score'>0</span> : <span id='computer-score'>0</span>
+      <span class='tag' id='comp-tag'>comp</span>
+    </div>
+
+    <!-- MESSAGE -->
+    <div class="message">
+      <p>Click on rock, paper or scissors to start playing!</p>
+    </div>
+
+    <!-- CHOICES -->
+    <div class="choices">
+      <div class="choice" id='rock'>
+        <img src="./images/rock.png" alt="hand forming rock">
+      </div>
+      <div class="choice" id='paper'>
+        <img src="./images/paper.png" alt="hand forming paper">
+      </div>
+      <div class="choice" id='scissors'>
+        <img src="./images/scissors.png" alt="hand forming scissors">
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
